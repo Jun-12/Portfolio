@@ -102,6 +102,7 @@ main {
     right: 6%;
     text-align: end;
     line-height: 100px;
+    color: lightsalmon;
 }
 
 
@@ -116,7 +117,10 @@ main {
 
 .container {
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
+}
+
+.pic {
 }
 
 .pic img {
@@ -395,12 +399,17 @@ main {
     font-size: 50px;
 }
 
+#about {
+    padding: 40px 0 20px;
+}
+
 .container {
     display: block;
 }
 
 .pic img {
     width: 70%;
+    height: 70%;
     margin: 0 auto;
 }
 
@@ -411,5 +420,25 @@ main {
 
 .contact-button button {
     font-size: 20px;
+}
+
+
+/*追加*/
+#works {
+    padding: 0 0 40px;
+}
+
+#works .flex {
+    display: block;
+}
+
+#works .item {
+    display: block;
+    margin: 40px auto;
+}
+
+.item {
+    display: block;
+    margin: 40px auto;
 }
 }
