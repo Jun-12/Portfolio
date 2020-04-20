@@ -192,7 +192,7 @@ main {
     content: "";
     width: 100%;
     height: 100%;
-    top: 45.5px;
+    top: 31.5px;
     left: 0;
     background: #000;
     transform: translateY(-50%) scaleX(0);
@@ -444,5 +444,11 @@ main {
 .item {
     display: block;
     margin: 40px auto;
+}
+}
+
+@media (max-width: 437px) {
+.contact-button:before {
+    top: 45.5px;
 }
 }
