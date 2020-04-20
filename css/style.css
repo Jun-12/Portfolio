@@ -174,7 +174,7 @@ main {
     margin: 0 auto;
     position: relative;
     display: inline-flex;
-    width: 240px;
+    /* width: 240px; */
     min-height: 65px;
     border: 1px solid #000;
     padding: 1rem 2rem;
@@ -418,8 +418,12 @@ main {
     margin: 30px 0 0;
 }
 
-.contact-button button {
+.contact-button {
     font-size: 20px;
+}
+
+.middle {
+    width: auto;
 }
 
 
